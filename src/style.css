@@ -1,3 +1,30 @@
+/* COLOR PALLETE OPTIONS
+
+2. Coastal Serenity
+White Sand (#F5F5DC): Neutral color for text and secondary elements.
+Deep Blue (#1E3D59): Dominant color for the background or large sections.
+Turquoise (#40E0D0): Accent color for buttons, links, and highlights.
+Lemon Yellow (#FFF44F): Accent color for buttons, links, and highlights.
+Terracotta (#E2725B): Accent color for buttons, links, and highlights.
+
+*/
+:root {
+  --color-bg: #f5f5dc;
+  --color-text: #1e3d59;
+  --color-higthligt1: #e2725b;
+  --color-higthligt2: #fff44f;
+  --color-higthligt-alternative: #40e0d0;
+}
 body {
-  color: red;
+  background-color: var(--color-text);
+  color: white;
+}
+button {
+  background-color: #40e0d0;
+}
+button:hover {
+  background-color: #fff44f;
+}
+a {
+  color: #e2725b;
 }
