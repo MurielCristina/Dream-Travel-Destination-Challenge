@@ -1,23 +1,63 @@
-/* COLOR PALLETE OPTIONS
-
-2. Coastal Serenity
+/* COLOR PALLETE - Coastal Serenity
 White Sand (#F5F5DC): Neutral color for text and secondary elements.
 Deep Blue (#1E3D59): Dominant color for the background or large sections.
 Turquoise (#40E0D0): Accent color for buttons, links, and highlights.
 Lemon Yellow (#FFF44F): Accent color for buttons, links, and highlights.
 Terracotta (#E2725B): Accent color for buttons, links, and highlights.
-
 */
 :root {
-  --color-bg: #f5f5dc;
+  --color-bg: #01173c;
+  --color-bg2: #f5f5dc;
   --color-text: #1e3d59;
   --color-higthligt1: #e2725b;
   --color-higthligt2: #fff44f;
   --color-higthligt-alternative: #40e0d0;
 }
 body {
-  background-color: var(--color-text);
-  color: white;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+.hero {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--color-bg2);
+}
+/*HEADER*/
+.header-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(/images/Hero/header.jpg);
+}
+header {
+  text-align: center;
+  padding: 150px 0;
+}
+header h2 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+}
+h1 {
+  font-size: 90px;
+  margin: 60px 0;
+}
+header h3 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 0;
+}
+header p {
+  margin: 0 350px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  opacity: 0.7;
+  text-align: center;
+}
+@media (max-width: 576px) {
 }
 button {
   background-color: #40e0d0;
