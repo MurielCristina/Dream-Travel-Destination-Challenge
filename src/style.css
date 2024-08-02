@@ -160,4 +160,87 @@ h2 {
   font-size: 50px;
   line-height: 1.5;
 }
+h3 {
+  text-align: center;
+  font-size: 38px;
+  line-height: 1.5;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+h4 {
+  text-align: center;
+  margin: 10px 0;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+a {
+  color: var(--color-higthligt1);
+}
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 40px;
+  }
+}
+/*Scenic Beauty section (start)*/
+.why-visit img {
+  padding: 48px;
+}
+.grid-4-col {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.small-card {
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.small-card p {
+  opacity: 0.7;
+}
+.small-card a {
+  font-size: 12px;
+  line-height: 1.5;
+  opacity: 0.9;
+  display: flex;
+  justify-content: end;
+}
+.small-card a:hover {
+  color: var(--color-higthligt2);
+}
+@media (max-width: 768px) {
+  .why-visit img {
+    padding: 20px;
+  }
+  .why-visit h3 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .grid-4-col {
+    grid-template-columns: 1fr 1fr;
+  }
+  .why-visit p {
+    font-size: 12px;
+    line-height: 1.25;
+  }
+}
+@media (max-width: 1024px) {
+  h3 {
+    margin-top: 50px;
+  }
+}
+
+/*Scenic Beauty section (end)*/
+
 /*MAIN (end)*/
