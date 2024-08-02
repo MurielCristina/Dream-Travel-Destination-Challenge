@@ -186,6 +186,13 @@ p {
   font-size: 14px;
   line-height: 1.5;
 }
+li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
 @media (max-width: 768px) {
   h2 {
     font-size: 40px;
@@ -243,7 +250,21 @@ p {
   grid-template-columns: 2fr 1fr 1fr;
   grid-gap: 10px;
 }
-.gallery-pics {
+h3.culinary-delights {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.culinary-delights p {
+  margin-top: 40px;
+  font-size: 22px;
+}
+.culinary-delights li {
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .grid-4-col-especial {
+    grid-template-columns: 1fr;
+  }
 }
 /*Culinary deligths section (end)*/
 
