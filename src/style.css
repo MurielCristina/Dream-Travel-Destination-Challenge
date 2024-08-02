@@ -265,6 +265,17 @@ h3.culinary-delights {
   .grid-4-col-especial {
     grid-template-columns: 1fr;
   }
+  h3.culinary-delights {
+    margin-bottom: 0;
+    margin-top: 50px;
+  }
+  .culinary-delights p {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .culinary-delights li {
+    font-size: 14px;
+  }
 }
 /*Culinary deligths section (end)*/
 
