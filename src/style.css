@@ -278,5 +278,71 @@ h3.culinary-delights {
   }
 }
 /*Culinary deligths section (end)*/
+/*Rich Culture and History - Adventure and Relaxation(start)*/
+.grid-2-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+h3.culture-adventure {
+}
+.color-box {
+  background-color: #40e0d057;
+  color: var(--color-bg);
+  padding: 50px;
+  padding-top: 15px;
+  text-align: center;
+  border-radius: 50px;
+  margin: 70px;
+  margin-top: 0;
+}
+.button1 {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+.button1:hover {
+  background-color: #0056b3;
+}
+.button2 {
+  background-color: #ff4500;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+.button2:hover {
+  background-color: #cc3700;
+}
+@media (max-width: 768px) {
+  .grid-2-col {
+    grid-template-columns: 1fr;
+  }
+  .color-box {
+    padding: 20px;
+    margin: 40px;
+  }
+  .color-box .button1 {
+    padding: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+  }
+}
+/*Rich Culture and History - Adventure and Relaxation(end)*/
 
 /*MAIN (end)*/
