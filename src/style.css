@@ -57,6 +57,21 @@ header p {
   opacity: 0.7;
   text-align: center;
 }
+header a {
+  font-weight: 400;
+  font-size: 50px;
+  text-decoration: none;
+  color: var(--color-bg2);
+  animation: blink-animation 1.5s steps(2, start) infinite;
+}
+header a:hover {
+  color: var(--color-higthligt1);
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
 @media (max-width: 768px) {
   header {
     padding: 100px 0;
@@ -132,6 +147,11 @@ footer a:hover {
   }
 }
 /*FOOTER (end)*/
+main {
+  background-color: var(--color-bg2);
+  margin: 0 20px;
+  padding: 20px;
+}
 
 button {
   background-color: #40e0d0;
