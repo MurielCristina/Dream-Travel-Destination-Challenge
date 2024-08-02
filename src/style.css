@@ -208,6 +208,7 @@ p {
 }
 .small-card p {
   opacity: 0.7;
+  text-align: center;
 }
 .small-card a {
   font-size: 12px;
@@ -235,12 +236,15 @@ p {
     line-height: 1.25;
   }
 }
-@media (max-width: 1024px) {
-  h3 {
-    margin-top: 50px;
-  }
-}
-
 /*Scenic Beauty section (end)*/
+/*Culinary deligths section (start)*/
+.grid-4-col-especial {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.gallery-pics {
+}
+/*Culinary deligths section (end)*/
 
 /*MAIN (end)*/
