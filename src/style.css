@@ -147,18 +147,17 @@ footer a:hover {
   }
 }
 /*FOOTER (end)*/
+/*MAIN (start)*/
+
 main {
   background-color: var(--color-bg2);
   margin: 0 20px;
   padding: 20px;
+  padding-top: 80px;
 }
-
-button {
-  background-color: #40e0d0;
+h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.5;
 }
-button:hover {
-  background-color: #fff44f;
-}
-a {
-  color: #e2725b;
-}
+/*MAIN (end)*/
