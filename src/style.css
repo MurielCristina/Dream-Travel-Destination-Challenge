@@ -340,10 +340,56 @@ button {
   text-decoration: none;
   display: block;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 button:hover {
   background-color: #cc3700;
+}
+.form-container {
+  background-color: #40e0d057;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+.form-container h4 {
+  color: #333333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+.form-container label {
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form-container input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #333333;
+  background-color: #ffffff;
+}
+.form-container button {
+  background-color: #e2725b;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.form-container button:hover {
+  background-color: #c25a45;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 /*Contact (end)*/
 /*MAIN (end)*/
