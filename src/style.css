@@ -286,7 +286,9 @@ h3.culinary-delights {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.insta {
+.embed {
+  width: 100%;
+  aspect-ratio: 16/9;
   display: flex;
   justify-content: center;
 }
@@ -310,6 +312,11 @@ h3.culinary-delights {
 @media (max-width: 768px) {
   .grid-2-col {
     grid-template-columns: 1fr;
+  }
+  .button1 {
+    padding: 20px 10px;
+    font-size: 12px;
+    margin: 40px 90px;
   }
 }
 /*Rich Culture and History - Adventure and Relaxation(end)*/
